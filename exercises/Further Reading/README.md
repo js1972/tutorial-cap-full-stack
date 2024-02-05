@@ -36,6 +36,10 @@ The service can pickup changes to you code from the git repository and automatic
 
 [Tutorial to use CI/CD with your CAP project](https://developers.sap.com/tutorials/cicd-start-cap.html).
 
+## Fiori Elements
+
+[Detailed FE tutorial with custom pages and extensions](https://github.com/SAP-samples/teched2023-DT262)
+
 ## SAP BTP Runtimes
 
 Throughout these exercises we have been using the SAP BTP Cloud Foundry environment to deploy our CAP service. Note that we can also use a managed Kubernetes environment with the SAP BTP Kyma runtime.
