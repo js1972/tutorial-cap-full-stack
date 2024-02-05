@@ -98,6 +98,10 @@ See [here](https://cap.cloud.sap/docs/node.js/typescript#enable-typescript-suppo
 CAP (`@sap/cds`) comes with Typescript types (built-in) but there is an additional package that can be user to automatically add types to your own entities - [cds typer](https://cap.cloud.sap/docs/tools/cds-typer#cds-typer-vscode). **cds typer** can even be used when not creating a full-blown typescript cap project.
 > Add types with `cds add typer`
 
+## Cloud ALM
+
+A tutorial to take your through the process of instrumenting your BTP application for monitoring nby SAP Cloud ALM (Health Checks and Real User Monitoring): [Observability for your SAP BTP applications with SAP Cloud ALM](https://github.com/SAP-samples/teched2023-XP261).
+
 # Undeploy your app from SAP BTP
 
 You can undeploy your app and all its services by running the following:
