@@ -458,6 +458,8 @@ _An application router is necessary for CAP projects if you want to add UI apps.
 ## Add deployment configuration - PART 3 - XSUAA
 
 1. Add xsuaa dependencies and configuration to the project.
+    > `xsuaa` is the technical name for the [SAP BTP Authorization & Trust Management Service](https://help.sap.com/docs/authorization-and-trust-management-service/authorization-and-trust-management/sap-authorization-and-trust-management-service-in-cloud-foundry-environment).
+
     Performing this step after the approuter will mean no manual config changes are required in the mta.yaml.
 
     ```bash
