@@ -114,7 +114,7 @@ git add -A
 git commit -m "<a commit message>"
 ```
 
-In a real-world scenario you would setup a `remote` to [GitHub.com](github.com) or some other git server and routinely push your changes to it.
+In a real-world scenario you would setup a `remote` to [GitHub.com](https://github.com) or some other git server and routinely push your changes to it.
 
 ## Add a domain model
 
