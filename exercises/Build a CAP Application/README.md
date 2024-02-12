@@ -107,14 +107,14 @@ git init
 
 This creates a local git repository for your project.
 
-> It might be handy to commit your changes to git after each exercise is completed so that you have a point to revert back to in case. To commit you changes at any time:
+> It might be handy to commit your changes to git after each exercise is completed so that you have a point to revert back to in case of a mistake. To commit your changes at any time:
 
 ```bash
 git add -A
 git commit -m "<a commit message>"
 ```
 
-In a real-world scenario you would setup a `remote` to GitHub.com or some other git server and routinely push your changes to it.
+In a real-world scenario you would setup a `remote` to [GitHub.com](github.com) or some other git server and routinely push your changes to it.
 
 ## Add a domain model
 
