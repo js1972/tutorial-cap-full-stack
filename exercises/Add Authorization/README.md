@@ -171,7 +171,7 @@ We have an OAuth 2.0 scope defined which will become a Role in the BTP subaccoun
 We also have a Role Template defined which uses the `support` scope.
 Once the app is deployed to BTP Cloud Foundry we need to manually create Role Collections from the Role Templates to assign to users.
 
-> Note: You can also define your apps **Role Collections** inside the xs-security.json file.
+> Note: You can also define your apps **Role Collections** inside the `xs-security.json` or `mta.yaml` files.
 
 ## Summary
 
