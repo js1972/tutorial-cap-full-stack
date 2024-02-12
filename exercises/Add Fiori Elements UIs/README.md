@@ -29,7 +29,7 @@ To learn more about each of these points, see [Why Use SAP Fiori Elements?](http
     > - For macOS: <kbd>Command</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd>
     > - For Windows: <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd>
 
-3. Type **Fiori: Open Application Generator** in the field and select this entry from the list. Alternatively, you can right-click the mta.yaml file and select "Create MTA Module from Template". Alternatively, right-click the `mta.yaml` file and choose Create Module from Template.
+3. Type **Fiori: Open Application Generator** in the field and select this entry from the list. Alternatively, you can right-click the mta.yaml file and select "Create MTA Module from Template".
 
 4. In the **Template Selection** step:
 
