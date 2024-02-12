@@ -470,6 +470,6 @@ Enabling a draft for an entity allows the users to edit the entities. To enable 
 
 ### Summary
 
-In this exercise you have built a Fiori application with Fiori Elements and the Fiori tooling and added it as a module to our projects.
+In this exercise you have built a Fiori application with Fiori Elements and the Fiori tooling and added it as a module to our project.
 
 Continue to - [Exercise 4 - Add custom logic to our CAP application](../Add%20Custom%20Logic/README.md)
