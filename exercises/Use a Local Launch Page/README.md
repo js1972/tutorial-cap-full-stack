@@ -18,8 +18,9 @@ In the current implementation, you can open the **Incident Management** applicat
 2. Create a new **launchpage.html** file in the **app** folder of the `INCIDENT-MANAGEMENT-<xxx>` application.
 
 3. Copy the following content to the **launchpage.html** file:
-> Find all `<xxx>` and replace all with your teched user number
+    > Find all `<xxx>` and replace all with your teched user number
 
+    ```
     <!DOCTYPE html>
     <html>
         <head>
@@ -58,6 +59,7 @@ In the current implementation, you can open the **Incident Management** applicat
         </head>
         <body class="sapUiBody" id="content"></body>
     </html>
+    ```
 
     > Note: a launchpage is generated for you by the Fiori Elements template wizard and can be found in the **tests** folder.
 
