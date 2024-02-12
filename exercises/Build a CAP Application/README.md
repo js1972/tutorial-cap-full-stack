@@ -4,9 +4,9 @@ In this exercise, we will learn
 - How to create a CAP project
 - How to add a domain model
 - How to create services
-- How to add data to your database
+- How to add test/configuration data to your database
 - How to add calculated elements
-- Add CAP config for later deployment
+- Add CAP config for later deployment to BTP Cloud Foundry
 - Add Approuter
 
 ## Create a CAP project
@@ -48,6 +48,31 @@ In this exercise, we will learn
     > You new project should also appear on the Getting Started page.
 
     > When the project re-opens you may need to re-open the terminal as well.
+
+6. Inspect the generated project.
+    > `cds init` will create a best practice directory project structure similar to this:
+    ```bash
+    my-cap-server/
+    ├── app/
+    │   ├── ui5-app/
+    │   │   ├── webapp/
+    │   │   ├── package.json
+    │   │   └── ui5.yaml
+    │   ├── fe-app/
+    │   │   ├── webapp/
+    │   │   ├── package.json
+    │   │   └── ui5.yaml
+    │   └── other-app/
+    │       ├── webapp/
+    │       ├── package.json
+    │       └── ui5.yaml
+    ├── db/
+    │   ├── data/
+    │   └── schema.cds
+    ├── srv/
+    │   └── service.cds
+    └── package.json
+    ```
 
 7. While you are in the `<incident-management-xxx>` folder, choose the burger menu and then choose **Terminal** &rarr; **New Terminal**.
 
