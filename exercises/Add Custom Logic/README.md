@@ -98,7 +98,7 @@ Debugging your CAP custom code can be done with the built-in visual javascript d
 
 4. Set a break-point in the source and run your app - test as per usual!
 
-> A run configuration in BAS (and/or vscode) can also be used to launch your app in debug mode. Note that you can debug against real BTP services (instead of mocks) as shown later with **hybrid** development. It is also possible to [remotely debug applications](https://community.sap.com/t5/technology-blogs-by-sap/set-up-remote-debugging-to-diagnose-cap-applications-node-js-stack-at/ba-p/13515376) running on BTP Cloud Foundry.
+> A run configuration in BAS (and/or vscode) can also be used to launch your app in debug mode. Note that you can debug against real BTP services (instead of mocks) as shown later with **hybrid** development. It is also possible to [remotely debug applications](https://community.sap.com/t5/technology-blogs-by-sap/set-up-remote-debugging-to-diagnose-cap-applications-node-js-stack-at) running on BTP Cloud Foundry.
 
 ## Summary
 
