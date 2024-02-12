@@ -59,6 +59,8 @@ In the current implementation, you can open the **Incident Management** applicat
         <body class="sapUiBody" id="content"></body>
     </html>
 
+    > Note: a launchpage is generated for you by the Fiori Elements template wizard and can be found in the **tests** folder.
+
 3. Make sure the SAP Fiori application is running. If you closed it, choose the **Preview Application** option in the **Application Info - incidentsxxx** tab and select the **watch-incidents** npm script.
 
     > To open the **Application Info - incidentsxxx** tab: 
