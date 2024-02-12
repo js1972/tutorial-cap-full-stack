@@ -441,7 +441,7 @@ Here we perform some configuration steps to setup for deployment to SAP BTP Clou
 
 ## Add deployment configuration - PART 2 - Approuter
 
-The application router is used to serve static content, authenticate users, rewrite URLs, and forward or proxy requests to other micro services while propagating user information. This tutorial uses SAP Managed Application Router, which requires a subscription to SAP Build Work Zone service.
+The [application router](https://help.sap.com/docs/btp/sap-business-technology-platform/application-router) is used to serve static content, authenticate users, rewrite URLs, and forward or proxy requests to other micro services while propagating user information. This tutorial uses SAP Managed Application Router, which requires a subscription to SAP Build Work Zone service.
 
 _An application router is necessary for CAP projects if you want to add UI apps. It performs the function of a reverse-proxy in-front of your application components (microservices)._
 
