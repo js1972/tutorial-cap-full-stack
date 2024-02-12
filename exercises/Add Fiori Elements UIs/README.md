@@ -1,7 +1,7 @@
 # Exercise 3 - Add SAP Fiori Elements UIs
 
 In this exercise, we will learn
-- How to generate the UI with an SAP Fiori elements template
+- How to generate the UI with an SAP Fiori Elements template
 - How to modify the UI with the SAP Fiori page editor
 
 ## Overview
