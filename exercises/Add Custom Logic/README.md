@@ -7,7 +7,7 @@ In this exercise, we will learn
 
 ## Add custom code
 
-In this tutorial, you add some custom code to the CAP application. Depending on the contents of the **title** property, the custom code changes the value of the **urgency** property. Additionally, we will block a user from changing an already **close** incident.
+In this tutorial, you add some custom code to the CAP application. Depending on the contents of the **title** property, the custom code changes the value of the **urgency** property. Additionally, we will block a user from changing an already **closed** incident.
 
 1. In SAP Business Application Studio, go to your **IncidentManagement** dev space.
 
