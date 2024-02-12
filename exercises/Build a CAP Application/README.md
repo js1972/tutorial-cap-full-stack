@@ -416,7 +416,7 @@ Elements can be specified with a calculation expression, in which you can refer 
 
 ## Add deployment configuration - PART 1 - HANA/MTA
 
-Here we perform sone configuration steps to setup for deployment to SAP BTP Cloud Foundry.
+Here we perform some configuration steps to setup for deployment to SAP BTP Cloud Foundry.
 
 1. Set config to use SAP HANA Cloud in production.
 
