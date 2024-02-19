@@ -28,7 +28,7 @@ Evidence shows that getting new software in front of the users as quickly as pos
 
 CI/CD automates the testing, integration and deployment of your code.
 
-> As a developer, you will start a new project and as you build it out and make changes requested by users you will likely be testing locally yourself. But there will come a time when you start making changes; pushing to prod; and finding out that you broke something else. This is why need automated testing and it gives you, the developer, reassurance.
+> As a developer, you will start a new project and as you build it out and make changes requested by users you will likely be testing locally yourself. But there will come a time when you start making changes; pushing to prod; and finding out that you broke something else. This is why you need automated testing. It gives you - the developer - reassurance.
 
 SAP BTP includes the [SAP Continuous Integration and Delivery service](https://discovery-center.cloud.sap/serviceCatalog/continuous-integration--delivery?region=all) that is ready to go with very minimal configuration and allows you to run your automated tests; validate the code (linting) and also deploy to BTP subaccounts.
 
