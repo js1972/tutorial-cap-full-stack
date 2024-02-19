@@ -32,7 +32,7 @@ CI/CD automates the testing, integration and deployment of your code.
 
 SAP BTP includes the [SAP Continuous Integration and Delivery service](https://discovery-center.cloud.sap/serviceCatalog/continuous-integration--delivery?region=all) that is ready to go with very minimal configuration and allows you to run your automated tests; validate the code (linting) and also deploy to BTP subaccounts.
 
-The service can pickup changes to you code from the git repository and automaticall run the CI/CD pipeline. Developers can receive notifications of success/failure.
+The service can pickup changes to you code from the git repository and automatically run the CI/CD pipeline. Developers can receive notifications of success/failure.
 
 [Tutorial to use CI/CD with your CAP project](https://developers.sap.com/tutorials/cicd-start-cap.html).
 
