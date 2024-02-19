@@ -500,7 +500,7 @@ Now replace index.html with `test/integration/opaTests.qunit.html`.
 
 The integration tests will run with output similar to this:
 
-![UI5 integration tests](.images/ui5-tests.png)
+![UI5 integration tests](./images/ui5-tests.png)
 
 ### Summary
 
