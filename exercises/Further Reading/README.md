@@ -100,7 +100,7 @@ CAP (`@sap/cds`) comes with Typescript types (built-in) but there is an addition
 
 ## Cloud ALM
 
-A tutorial to take your through the process of instrumenting your BTP application for monitoring nby SAP Cloud ALM (Health Checks and Real User Monitoring): [Observability for your SAP BTP applications with SAP Cloud ALM](https://github.com/SAP-samples/teched2023-XP261).
+A tutorial to take your through the process of instrumenting your BTP application for monitoring by SAP Cloud ALM (Health Checks and Real User Monitoring): [Observability for your SAP BTP applications with SAP Cloud ALM](https://github.com/SAP-samples/teched2023-XP261).
 
 # Undeploy your app from SAP BTP
 
