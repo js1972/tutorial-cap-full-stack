@@ -221,7 +221,7 @@ Waiting for some to arrive...
     cds compile db --to sql
     ```
 
-    > In BAS you can also right-click on the data model file and choose to display this.
+    > In BAS you can also right-click on the data model file and choose to display this with `CDS Preview As...`.
 
 ## Create services
 
