@@ -10,10 +10,10 @@ We use a different approach by replicating remote data on demand.
 
 The scenario will look like this:
 
-- The user enters a new incident and selects the customer through a value help. This value help shows only remote customer data.
-- As soon as the incident record is created, the customer data is written to a local replica table.
-- Further requests for the incident's customer are served from this replica table.
-- Replicated records will be updated if a remote customer changes.
+- The user enters a new incident and selects the business partner through a value help. This value help shows only remote business partner data.
+- As soon as the incident record is created, the business partner data is written to a local replica table.
+- Further requests for the incident's business partner are served from this replica table.
+- Replicated records will be updated if a remote business partner changes.
 
 ## Add persistent replica table
 
