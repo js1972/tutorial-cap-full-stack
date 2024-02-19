@@ -14,6 +14,7 @@ In this exercise, we will learn
 1. In SAP Business Application Studio, go to your **business application** dev space.
 
     > Make sure the dev space is in status **RUNNING**.
+    > If you don't yet have a dev space you will be prompted to create one - use the dev space type: "Full-Stack Cloud Application"
 
 2. Choose the burger menu and choose **Terminal** &rarr; **New Terminal**.
 
