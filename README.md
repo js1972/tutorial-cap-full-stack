@@ -38,7 +38,7 @@ The requirements to follow the exercises in this repository are...
     - Google Chrome
     - Microsoft Edge
 - You have a running instance of SAP HANA Cloud and SAP Work Zone Standard.
-    > See this [tutorial](https://developers.sap.com/tutorials/btp-app-hana-cloud-setup.html) for preparing a SAP HANA Cloud instance.
+    > See this [tutorial](https://developers.sap.com/mission.hana-cloud-database-get-started.html) for preparing a SAP HANA Cloud instance.
     > See this [tutorial](https://developers.sap.com/tutorials/btp-app-work-zone-subscribe.html) for subscribing to SAP Build Work Zone, Standard Edition.
 
 - You have a running instance of SAP Business Application Studio with a __Full Stack Cloud Application__ dev space. See this [tutorial](https://developers.sap.com/tutorials/appstudio-onboarding.html) on setting up Business Application Studio (_it is already setup on trial accounts_).
