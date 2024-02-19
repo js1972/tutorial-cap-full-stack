@@ -246,7 +246,7 @@ The CSV file with the mock data got deployed.
 
     > To use your own SAP S/4HANA Cloud system, see this [tutorial](https://developers.sap.com/tutorials/btp-app-ext-service-s4hc-use.html). You don't need it for this tutorial though.
 
-    Create a new file .env in the incidents folder and add environment variables that hold the URL of the sandbox as well as a personal API Key:
+    Create a new file .env in the incident-management project root folder and add environment variables that hold the URL of the sandbox as well as a personal API Key:
 
     ```
     DEBUG=remote
