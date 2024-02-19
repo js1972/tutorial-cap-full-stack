@@ -137,6 +137,8 @@ In this section, you'll modify the List View Page of the UI with the SAP Fiori p
 
     ![Page Map](./images/PageMap.png)
 
+    > If the Page Map fails to open, refresh the entire browser page and try again.
+
     You will see the properties on the right side of the page map. You can edit these properties to update the UI of the application.
 
     > In case the **Application Info - incidentsxxx** tab is closed: 
