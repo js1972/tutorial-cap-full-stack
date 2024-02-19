@@ -75,7 +75,26 @@ In this exercise, we will learn
     └── package.json
     ```
 
-7. While you are in the `<incident-management-xxx>` folder, choose the burger menu and then choose **Terminal** &rarr; **New Terminal**.
+7. Use git to manage the project
+    `git` is the most widely used software management and versioning tool. Let's add git to our project (**optional**).
+
+    In the terminal:
+    ```bash
+    git init
+    ```
+
+    This creates a local git repository for your project.
+
+    > It might be handy to commit your changes to git after each exercise is completed so that you have a point to revert back to in case of a mistake. To commit your changes at any time:
+
+    ```bash
+    git add -A
+    git commit -m "<a commit message>"
+    ```
+
+    In a real-world scenario you would setup a `remote` to [GitHub.com](https://github.com) or some other git server and routinely push your changes to it.
+
+8. While you are in the `<incident-management-xxx>` folder, choose the burger menu and then choose **Terminal** &rarr; **New Terminal**.
 
     Now you can use the terminal to start a CAP server.
 
@@ -96,26 +115,6 @@ In this exercise, we will learn
     No models found in db/,srv/,app/,schema,services.
     Waiting for some to arrive...
     ```
-
-### Use git to manage the code
-
-`git` is the most widely used software management and versioning tool. Let's add git to our project (**optional**).
-
-In the terminal:
-```bash
-git init
-```
-
-This creates a local git repository for your project.
-
-> It might be handy to commit your changes to git after each exercise is completed so that you have a point to revert back to in case of a mistake. To commit your changes at any time:
-
-```bash
-git add -A
-git commit -m "<a commit message>"
-```
-
-In a real-world scenario you would setup a `remote` to [GitHub.com](https://github.com) or some other git server and routinely push your changes to it.
 
 ## Add a domain model
 
