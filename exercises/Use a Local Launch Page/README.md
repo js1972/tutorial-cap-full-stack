@@ -7,7 +7,9 @@ In this exercise, we will learn
 
 You have already generated the **Incident Management** application and can start it in the browser from SAP Business Application Studio. However, you can also add a launch page for local testing. This page looks like a real site, but is just a local copy of the otherwise centrally managed SAP Build Work Zone, standard edition site which we will see in the upcoming tutorials and this comes with a limited version of its functionality. 
 
-In the current implementation, you can open the **Incident Management** application via the `app/incidents/webapp/index.html` file and there is no launch page. If you now create a second application using the SAP Fiori application generator within your project, it will be generated in the same way, again with its own `index.html` file. Instead, you can use a launch page for all the applications. You can add a launch page by creating an HTML file that uses the built-in SAPUI5 shell in the **app** folder. 
+In the current implementation, you can open the **Incident Management** application via the `app/incidents/webapp/index.html` file and there is no launch page. If you now create a second application using the SAP Fiori application generator within your project, it will be generated in the same way, again with its own `index.html` file. Instead, you can use a launch page for all the applications. You can add a launch page by creating an HTML file that uses the built-in SAPUI5 shell in the **app** folder.
+
+> A local launch page also helps with automated testing of UI5 apps as the OPA5 library requires the launchpage's back button for navigation.
 
 ### Implement a local launch page
 
