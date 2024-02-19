@@ -470,6 +470,38 @@ Enabling a draft for an entity allows the users to edit the entities. To enable 
     > The `@Core.Computed` annotation ensures that Fiori Elements does not ask the user to enter the ID (which is a UUID) on creation of a new Incident.
     Any key field of an entity that are displayed by Fiori Elements will appear in a create popup when the **Create** button is clicked.
 
+### UI5 Testing
+
+If you look at the generated files for the fiori app you will see a **webapp/test** directory.
+
+In here we find some generated file to perform integrtion testing of your app using SAPUI5's OPA5 test library. Some minor edits are required to make the tests run within our CAP project, as follows:
+
+Edit the `webapp/test/integration/opaTests.qunit.html` file and prefix all references to the UI5 resources directory with `https://ui5.sap.com`. This enables us to run the tests from `cds watch`.
+
+> If building a standalone fiori app you can use the UI5 tooling to run your app with a local copy of the UI5 SDK (`/resources`).
+
+Edit file `webapp/test/integration/opaTests.qunit.js` and replace:
+```
+launchUrl: sap.ui.require.toUrl('ns/incidents') + '/index.html'
+```
+with
+```
+launchUrl: sap.ui.require.toUrl('ns/incidents') + '/test/flpSandbox.html#nsincidents-tile'
+```
+
+This tells the tests to run our app within the fiori launchpad.
+
+While running `cds watch`, start your app at:
+```
+incidents/webapp/index.html
+```
+
+Now replace index.html with `test/integration/opaTests.qunit.html`.
+
+The integration tests will run with output similar to this:
+
+![UI5 integration tests](ui5-tests.png)
+
 ### Summary
 
 In this exercise you have built a Fiori application with Fiori Elements and the Fiori tooling and added it as a module to our project.
