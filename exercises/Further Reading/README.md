@@ -95,7 +95,7 @@ When using the Fiori Application Generator (from the Template Wizards page in BA
 
 See [here](https://cap.cloud.sap/docs/node.js/typescript#enable-typescript-support) for for full Typescript support in CAP.
 
-CAP (`@sap/cds`) comes with Typescript types (built-in) but there is an additional package that can be user to automatically add types to your own entities - [cds typer](https://cap.cloud.sap/docs/tools/cds-typer#cds-typer-vscode). **cds typer** can even be used when not creating a full-blown typescript cap project.
+CAP (`@sap/cds`) comes with Typescript types (built-in) but there is an additional package that can be used to automatically add types to your own entities - [cds typer](https://cap.cloud.sap/docs/tools/cds-typer#cds-typer-vscode). **cds typer** can even be used when not creating a full-blown typescript cap project.
 > Add types with `cds add typer`
 
 ## Cloud ALM
