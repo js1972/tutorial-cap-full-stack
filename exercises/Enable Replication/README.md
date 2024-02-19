@@ -212,9 +212,12 @@ The UI also reflects the changed data:
 
 ## Summary
 
-In this exercise we have repicated the remote service data locally as we use the business partners and in additional we are using events to keep the data sync'd.
+In this exercise we have replicated (or cached) the remote service data locally as we use the business partners, and in addition we are using events to keep the data sync'd.
 
-> When running in production, CAP will use an instance of the SAP Event Mesh service  as an event broker.
+> When running in production, CAP will use an instance of the SAP Event Mesh service as an event broker (ensure you have entitlement for SAP Event Mesh in your subaccount and create an instance or configure as a resource in the `mta.yaml`). See [Event Mesh details in the CAP documentation](https://cap.cloud.sap/docs/guides/messaging/event-mesh#using-sap-event-mesh-in-cloud-foundry).
+    CAP automatically creates the necessary Queues and Subscriptions in Event Mesh
+
+> Note: It is not supported to use a BTP free trial account when connecting CAP applications to SAP Event Mesh. Use a paid account.
 
 In the next exercise, you will learn how to consolidate the current code into an integration package and how to use this package.
 
