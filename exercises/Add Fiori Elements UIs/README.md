@@ -474,7 +474,7 @@ Enabling a draft for an entity allows the users to edit the entities. To enable 
 
 If you look at the generated files for the fiori app you will see a **webapp/test** directory.
 
-In here we find some generated file to perform integrtion testing of your app using SAPUI5's OPA5 test library. Some minor edits are required to make the tests run within our CAP project, as follows:
+In here we find some generated files to perform integration testing of your app using SAPUI5's OPA5 test library. Some minor edits are required to make the tests run within our CAP project, as follows:
 
 Edit the `webapp/test/integration/opaTests.qunit.html` file and prefix all references to the UI5 resources directory with `https://ui5.sap.com`. This enables us to run the tests from `cds watch`.
 
@@ -500,7 +500,7 @@ Now replace index.html with `test/integration/opaTests.qunit.html`.
 
 The integration tests will run with output similar to this:
 
-![UI5 integration tests](ui5-tests.png)
+![UI5 integration tests](.images/ui5-tests.png)
 
 ### Summary
 
