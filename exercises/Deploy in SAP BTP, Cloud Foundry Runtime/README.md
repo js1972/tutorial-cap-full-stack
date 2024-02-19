@@ -150,7 +150,11 @@ To access the CAP app we need to be authorized with the `support` role. Here we 
 
 ## Summary
 
-We have now successfully deployed the parts of our application to SAP BTP. Next we will add a Tile for our app to SAP Build Work Zone and test it.
+We have now successfully deployed the parts (or modules, or microservices) of our application to SAP BTP.
+
+> With regards to the security roles... We can automate the creation of Role Collections by adding them directly to the `xs-security.json` or inside the `mta.yaml` (the config in the mta.yaml takes precedence if you happen to use both).
+
+Next we will add a Tile for our app to SAP Build Work Zone and test it.
 
 Continue to - [Exercise 9 - Integrate your Application with SAP Build Work Zone, Standard Edition](../Integrate%20Your%20Application%20with%20SAP%20Build%20Work%20Zone,%20Standard%20Edition/README.md)
 
