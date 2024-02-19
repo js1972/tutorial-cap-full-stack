@@ -76,6 +76,7 @@ In this exercise, we will learn
     ```
 
 7. Use git to manage the project
+
     `git` is the most widely used software management and versioning tool. Let's add git to our project (**optional**).
 
     In the terminal:
