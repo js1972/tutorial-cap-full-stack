@@ -28,9 +28,7 @@ The requirements to follow the exercises in this repository are...
     > See this [tutorial](https://developers.sap.com/tutorials/btp-app-prepare-btp.html) for preparing SAP BTP (create subaccount and add entitlements).
     > If you provide your own subaccount or use a free trial account there is no need to suffix object names with your userid (`<xxx>`).
 
-    > Access an [existing BTP trial account](https://cockpit.hanatrial.ondemand.com/cockpit#/home/trial) or create a [new BTP trial account](https://cockpit.hanatrial.ondemand.com/cockpit#/home/trial).
-
-    > Please choose either the US or EU region for your subaccount to ensure all required service entitlements are available in the trial account.
+    > Access an [existing BTP trial account](https://cockpit.hanatrial.ondemand.com/cockpit#/home/trial) or create a [new BTP trial account](https://cockpit.hanatrial.ondemand.com/cockpit#/home/trial). __Please choose either the US or EU region for your subaccount to ensure all required service entitlements are available in the trial account__.
 
 
 - You have one of the following browsers that are supported for working in SAP Business Application Studio:
