@@ -30,7 +30,7 @@ The requirements to follow the exercises in this repository are...
 
     > Access an [existing BTP trial account](https://cockpit.hanatrial.ondemand.com/cockpit#/home/trial) or create a [new BTP trial account](https://cockpit.hanatrial.ondemand.com/cockpit#/home/trial).
 
-    > A subaccount will already be setup for you in the trial account.
+    > Please choose either the US or EU region for your subaccount to ensure all required service entitlements are available in the trial account.
 
 
 - You have one of the following browsers that are supported for working in SAP Business Application Studio:
