@@ -456,6 +456,8 @@ _An application router is necessary for CAP projects if you want to add UI apps.
 
 4. Click next, this will generate the approuter configuration in mta.yaml and you will get a xs-security.json file.
 
+> If the application router is added to your project afterwards, then ensure to choose the option *do not overwrite* when finishing. See here for details: https://developers.sap.com/tutorials/deploy-to-cf.html
+
 ## Add deployment configuration - PART 3 - XSUAA
 
 1. Add xsuaa dependencies and configuration to the project.
