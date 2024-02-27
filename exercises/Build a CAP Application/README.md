@@ -444,7 +444,9 @@ Here we perform some configuration steps to setup for deployment to SAP BTP Clou
 
 The [application router](https://help.sap.com/docs/btp/sap-business-technology-platform/application-router) is used to serve static content, authenticate users, rewrite URLs, and forward or proxy requests to other micro services while propagating user information. This tutorial uses SAP Managed Application Router, which requires a subscription to SAP Build Work Zone service.
 
-_An application router is necessary for CAP projects if you want to add UI apps. It performs the function of a reverse-proxy in-front of your application components (microservices)._
+> _An application router is necessary for CAP projects if you want to add UI apps. It performs the function of a reverse-proxy in-front of your application components (microservices)._
+
+![Approuter architecture](./images/approuter-architecture.png)
 
 1. Right-click on the `mta.yaml` file that was created in the previous step. Select "Create MTA Module from Template".
 
