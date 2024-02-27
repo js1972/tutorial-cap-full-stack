@@ -446,7 +446,7 @@ The [application router](https://help.sap.com/docs/btp/sap-business-technology-p
 
 > _An application router is necessary for CAP projects if you want to add UI apps. It performs the function of a reverse-proxy in-front of your application components (microservices)._
 
-![Approuter architecture](./images/approuter-architecture.png)
+> ![Approuter architecture](./images/approuter-architecture.png)
 
 1. Right-click on the `mta.yaml` file that was created in the previous step. Select "Create MTA Module from Template".
 
