@@ -25,7 +25,7 @@ The requirements to follow the exercises in this repository are...
 - You have an S-user or P-user. See [User and Member Management](https://help.sap.com/docs/btp/sap-business-technology-platform/user-and-member-management).
 - You are an administrator of the global account in SAP BTP.
 - You have a subaccount in SAP BTP to deploy the services and applications.
-    > See this [tutorial](https://developers.sap.com/tutorials/btp-app-prepare-btp.html) for preparing SAP BTP (create subaccount and add entitlements).
+    > See this [tutorial](https://developers.sap.com/tutorials/prepare-btp-cf.html) for preparing SAP BTP (create subaccount and add entitlements).
     > If you provide your own subaccount or use a free trial account there is no need to suffix object names with your userid (`<xxx>`).
 
     > Access an [existing BTP trial account](https://cockpit.hanatrial.ondemand.com/cockpit#/home/trial) or create a [new BTP trial account](https://cockpit.hanatrial.ondemand.com/cockpit#/home/trial). __For a trial account: Please choose either the US or EU region for your subaccount to ensure all required service entitlements are available in the trial account__.
