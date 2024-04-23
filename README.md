@@ -44,6 +44,11 @@ The requirements to follow the exercises in this repository are...
 
 > Note: When using BAS from a BTP trial account it is not considered to be within the BTP IP address range so when setting up your HANA Cloud instance you need to allow connections from anywhere!
 
+> Map HANA Cloud instance to your CF org and space.
+> This can be done by editing the HANA Cloud configuration in the HANA tools app.
+> Find the org id with `cf org f72763f1trial --guid`
+> Find the space id with `cf space dev --guid`.
+
 <!-- Assign Entitlements start -->
 
 ### Configure the entitlements
