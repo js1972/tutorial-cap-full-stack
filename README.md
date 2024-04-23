@@ -46,8 +46,8 @@ The requirements to follow the exercises in this repository are...
 
 > Map HANA Cloud instance to your CF org and space.
 > This can be done by editing the HANA Cloud configuration in the HANA tools app.
-> Find the org id with `cf org f72763f1trial --guid`
-> Find the space id with `cf space dev --guid`.
+> Find the org id with `cf org <org-name> --guid`
+> Find the space id with `cf space <space-name> --guid`.
 
 <!-- Assign Entitlements start -->
 
